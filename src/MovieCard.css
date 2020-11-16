@@ -1,0 +1,95 @@
+
+.MovieCard__Front{
+    background-color: #ccc;
+    text-align: center;
+    width: 39vw;
+    display: flex;
+    text-align: center;
+    border-radius: 15px;
+    margin-top: 2vw;
+}
+
+
+.MovieCardFront__Image{
+    display: flex;
+    width: 35vw;
+    height: 24vw;
+    padding-left: 2vw;
+    object-fit: cover;
+}
+
+@media (max-width: 1000px) {
+    .MovieCard__Front{
+        background-color: transparent;
+        text-align: center;
+        width: 40vw;
+        display: flex;
+        /* height: 12vw; */
+        margin: 3vw;
+        /* box-shadow: 2px 2px 15px wheat, -2px 2px 15px wheat, -2px -2px 15px wheat, 2px -2px 15px wheat; */
+        border-radius: 15px;
+    }
+    
+    
+    .MovieCardFront__Image{
+        display: flex;
+        width: 37vw;
+        height: 27.5vw;
+        /* object-fit: cover; */
+    }
+  }
+
+
+
+
+.release__date{
+    display: flex;
+}
+
+.release__date > .description{
+    flex: 0.4;
+}
+
+
+@media (max-width: 806px) {
+    .MovieCard__Front{
+        background-color: transparent;
+        text-align: center;
+        width: 80vw;
+        display: flex;
+        /* height: 12vw; */
+        margin: 3vw;
+        /* box-shadow: 2px 2px 15px wheat, -2px 2px 15px wheat, -2px -2px 15px wheat, 2px -2px 15px wheat; */
+        border-radius: 15px;
+    }
+    
+    
+    .MovieCardFront__Image{
+        display: flex;
+        padding-left: 0.5vw;
+        width: 76vw;
+        height: 55vw;
+        /* object-fit: cover; */
+    }
+  }
+  @media (max-width: 600) {
+    .MovieCard__Front{
+        background-color: transparent;
+        text-align: center;
+        width: 80vw;
+        display: flex;
+        /* height: 12vw; */
+        margin: 3vw;
+        /* box-shadow: 2px 2px 15px wheat, -2px 2px 15px wheat, -2px -2px 15px wheat, 2px -2px 15px wheat; */
+        border-radius: 15px;
+    }
+    
+    
+    .MovieCardFront__Image{
+        display: flex;
+        padding-left: 0vw;
+        width: 68vw;
+        height: 55vw;
+        /* object-fit: cover; */
+    }
+  }

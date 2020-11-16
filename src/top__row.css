@@ -1,0 +1,22 @@
+.top__row{
+    background-color: darkslategray;
+    height: 10vh;
+    display: flex;
+}
+
+.top__row__icon{
+    color: tomato !important;
+    font-size: 50px !important;
+    margin-left: 15px;
+    margin-top: 7px;
+    /* border-right: 1px solid #000; */
+}
+
+.top__row__text{
+    text-decoration: underline;
+    text-decoration-color: darkslategray;
+    color: whitesmoke;
+    line-height: 10vh;
+    margin-left: 15px;
+    font-size: 35px;
+}

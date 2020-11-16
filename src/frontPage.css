@@ -1,0 +1,95 @@
+.frontPage{
+    background-image: url("https://images.pexels.com/photos/109669/pexels-photo-109669.jpeg");
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.searchBox{
+    border-radius: 15px;
+    box-shadow: 2px 2px 15px tomato, -2px 2px 15px tomato, -2px -2px 15px tomato, 2px -2px 15px tomato;
+    width: 40vw;
+    height: 9.5vh;
+}
+
+.empty{
+    padding-top: 40vh;
+    background-color: transparent;
+    width: 35vw;
+    padding-left: 30vw;
+    height: 6.5vh;
+    /* display: flex; */
+}
+
+.frontPage__icon{
+    font-size: 30px !important;
+    margin-top: 15px;
+    color: white !important;
+}
+
+.frontPage__inputBox{
+    /* height: 6.54vh; */
+    width: 35vw;
+    margin-bottom: 5px;
+    background: transparent;
+    color: #eee;
+    font-size: 35px;
+    border: none;
+}
+
+.frontPage__inputBox:focus{
+    outline: none;
+}
+
+::-webkit-input-placeholder {
+    color: #eee;
+    font-size: 25px;
+
+}
+
+
+
+@media (max-width: 806px) {
+    .searchBox{
+        border-radius: 15px;
+        box-shadow: 2px 2px 15px tomato, -2px 2px 15px tomato, -2px -2px 15px tomato, 2px -2px 15px tomato;
+        width: 70vw;
+        height: 9.5vh;
+    }
+    
+    .empty{
+        padding-top: 40vh;
+        background-color: transparent;
+        width: 70vw;
+        padding-left: 15vw;
+        height: 6.5vh;
+        /* display: flex; */
+    }
+    
+    .frontPage__icon{
+        font-size: 30px !important;
+        margin-top: 15px;
+        color: white !important;
+    }
+    
+    .frontPage__inputBox{
+        /* height: 6.54vh; */
+        width: 60vw;
+        margin-bottom: 5px;
+        background: transparent;
+        color: #eee;
+        font-size: 35px;
+        border: none;
+    }
+    
+    .frontPage__inputBox:focus{
+        outline: none;
+    }
+    
+}
+@media (max-width: 600) {
+}

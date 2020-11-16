@@ -1,0 +1,15 @@
+.searchResult{
+    margin: 0px;
+    background-color: #bbb;
+    /* height: 90vh; */
+}
+
+.searchResult__title{
+    color: tomato;
+}
+
+.searchResult__MovieList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
